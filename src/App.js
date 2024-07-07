@@ -1,13 +1,14 @@
 
 
-import Calculator from './Components/Calculator';
+
+import Crypto from './Components/Crypto.js';
 
 
 function App() {
   return (
     <div className="App">
-     
-<Calculator></Calculator>
+
+<Crypto></Crypto>
     </div>
   );
 }
