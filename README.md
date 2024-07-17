@@ -7,12 +7,13 @@ This React application fetches and displays real-time cryptocurrency prices from
 
 
 ## Features
-
+- **its based on HTTP client server based connection. Currently Real Time Data fetched to client based on the users request in a single connection. i have not used Web Sockets in it yet. but i will implement Web Sockets for Fully Duplex Realtime Communication.
 - **Real-time Data**: Fetches real-time cryptocurrency prices by market cap.
 - **Responsive Design**: Fully responsive layout, adapting to various screen sizes.
 - **Retry Mechanism**: Allows users to manually refresh the data by clicking the "Fetch Latest Data" button.
 - **Loading State**: Displays a loading message while fetching data.
 - **Error Handling**: Gracefully handles errors by logging them to the console and displaying an appropriate message.
+
 
 ## Technologies Used
 
